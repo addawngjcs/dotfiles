@@ -118,4 +118,22 @@ return {
 			})
 		end,
 	},
+
+	{
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("mason-tool-installer").setup({
+				ensure_installed = {
+					"stylua",
+					"luacheck",
+				},
+
+				auto_update = true,
+				run_on_start = true,
+				start_delay = 3000, -- 3 seconds delay
+				debounce_hours = 5, -- at least 5 hours between attempts to install/update
+			})
+		end,
+	},
 }

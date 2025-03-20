@@ -12,3 +12,5 @@ tmux
 neovim
 xclip
 fzf
+unzip
+luarocks

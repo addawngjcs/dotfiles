@@ -35,8 +35,10 @@ vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", { noremap = true, silent = true 
 -- nvim-ale config
 vim.cmd([[
     let g:ale_linters = {
+        \ 'lua': ['luacheck'],
         \ }
     let g:ale_fixers = {
+        \ 'lua': ['stylua'],
         \ }
     let g:ale_fix_on_save = 1
 ]])
