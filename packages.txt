@@ -1,0 +1,8 @@
+feh
+picom
+twmn-git
+xautolock
+rofi
+apple-fonts
+brightnessctl
+flameshot
