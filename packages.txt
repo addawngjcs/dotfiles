@@ -14,3 +14,10 @@ xclip
 fzf
 unzip
 luarocks
+thunar
+gvfs
+thunar-archive-plugin
+xarchiver
+thunar-media-tags-plugin
+thunar-volman
+tumbler
